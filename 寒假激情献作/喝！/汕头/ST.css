@@ -1,0 +1,109 @@
+* {
+	
+	padding: 0;
+	margin: 0;
+	
+	box-sizing: border-box;
+}
+body {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	height: 100vh;
+	background-color: #ffffff;
+}
+.container {
+	width: 1000px;
+	height: 520px;
+}
+.container ul {
+	
+	list-style: none;
+	
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	
+	justify-content: space-around;
+	
+	align-items: flex-end;
+}
+
+.container ul li {
+	width: 200px;
+	
+	cursor: pointer;
+}
+.container ul li img {
+	width: 100%;
+
+	border: 5px solid transparent;
+}
+
+
+.container ul .bigImg {
+	position: absolute;
+	top: 0;
+	left: 145px;
+	width: 1000px;
+	height: 380px;
+	
+	border: 10px solid transparent;
+	
+	background: url(./奶茶门店.jpg) no-repeat;
+	
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+
+.container ul .frame {
+	position: absolute;
+	left: 6.6%;
+	bottom: 4px;
+	width: 200px;
+	height: 115px;
+	border: 5px solid salmon;
+	
+	pointer-events: none;
+	
+	transition: all 0.5s;
+}
+
+.container ul .frame::before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	
+	left: calc(50% - 15px);
+	width: 30px;
+	height: 15px;
+	background-color: salmon;
+	
+	clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.container ul li:nth-child(1):hover ~ .bigImg {
+	background-image: url(./奶茶门店.jpg );
+}
+.container ul li:nth-child(1):hover ~ .frame {
+	left: 67px
+}
+
+.container ul li:nth-child(2):hover ~ .bigImg {
+	background-image: url(./潮汕功夫茶.jpg);
+}
+.container ul li:nth-child(2):hover ~ .frame {
+	left: 400px;
+}
+
+.container ul li:nth-child(3):hover ~ .bigImg {
+	background-image: url(./网红奶茶店.jpg);
+}
+.container ul li:nth-child(3):hover ~ .frame {
+	left: 733px;
+}

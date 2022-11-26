@@ -1,0 +1,233 @@
+
+.wrapper{
+    position: fixed;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    top: 0%;
+    width:100%;
+    height: 45px;
+    background-color: #3D3D3D;
+    overflow:hidden;
+    z-index: 3;
+    
+    
+    
+    
+     
+}
+.a{float:left;
+}
+li{
+    float: left;
+    font-size:40px;
+     font-family:庞门正道粗书体;
+     line-height:50px;
+     height:45px;
+    list-style: none;
+}
+.v1{
+    position: absolute;
+            text-align:center;
+            font-family:贤二体;
+            left:0px;
+            top:50px;
+}
+.v2{
+            position: absolute;
+            text-align:center;
+            font-family:贤二体;
+            left:0px;
+            top:500px;
+}
+.v3{position: absolute;
+    text-align:center;
+    font-family:贤二体;
+    left:0px;
+    top:1000px;
+
+}
+.v4{
+    position: absolute;
+    text-align:center;
+    font-family:贤二体;
+    left:0px;
+    top:1500px;
+
+}
+.pic1{
+    width:  1000px;
+    height:1000px;
+    margin:0 auto;
+    position: absolute fixed;
+    
+}
+
+.pic2{
+    width:  1000px;
+    height:1000px;
+    margin:0 auto;
+    position:absolute fixed ;
+    
+}
+.pic3{
+    width:  1000px;
+    height:1000px;
+    margin:0 auto;
+    position:absolute fixed ;
+
+}
+.pic4{
+    width:  1000px;
+    height:1000px;
+    margin:0 auto;
+    position:absolute fixed ;
+
+}
+.one{
+    width:700px;
+    height:400px;
+    margin:100px auto;
+}
+.two{
+    width:700px;
+    height:400px;
+    margin:100px auto;
+}
+.three{
+    width:700px;
+    height:400px;
+    margin:100px auto;
+}
+.four{
+    width:700px;
+    height:400px;
+    margin:100px auto;
+}
+.one-left{
+    width:50px;
+    height:300px;
+    float:left;
+}
+.two-left{
+    width:50px;
+    height:300px;
+    float:left;
+}
+.three-left{
+    width:50px;
+    height:300px;
+    float:left;
+}
+.four-left{
+    width:50px;
+    height:300px;
+    float:left;
+}
+.one-center{
+    width:600px;
+    height:300px;
+    float:left;
+}
+.two-center{
+    width:600px;
+    height:300px;
+    float:left;
+}
+.three-center{
+    width:600px;
+    height:300px;
+    float:left;
+}
+.four-center{
+    width:600px;
+    height:300px;
+    float:left;
+}
+.one-right{
+    width: 50px;
+    height: 300px;
+    float: right;
+}
+.two-right{
+     width: 50px;
+    height: 300px;
+    float: right;}
+.three-right{
+    width: 50px;
+    height: 300px;
+    float: right;
+}
+.four-right{
+    width: 50px;
+    height: 300px;
+    float: right;
+}
+
+.iro1{
+    position: absolute;
+    top: 100px;
+    left:30px;
+    height:300px;
+    width: 450px;
+}
+
+.iro3{position: absolute;
+    top: 560px;
+    left:30px;
+    height:300px;
+    width: 450px;
+    margin-top: 45px;
+
+}
+.iro5{position: absolute;
+    top: 1060px;
+    left:30px;
+    height:300px;
+    width: 450px;
+
+}
+.iro7{
+    position: absolute;
+    top: 1560px;
+    left:30px;
+    height:300px;
+    width: 450px;
+}
+
+.iro2{
+    position: absolute;
+    top: 100px;
+    right:40px;
+    height:300px;
+    width: 350px;
+}
+.iro4{
+    position: absolute;
+    top: 560px;
+    right:40px;
+    height:300px;
+    width: 350px;
+
+}
+.iro6{
+    position: absolute;
+    top: 1060px;
+    right:40px;
+    height:300px;
+    width: 350px;
+}
+.iro8{
+    position: absolute;
+    top: 1560px;
+    right:40px;
+    height:300px;
+    width: 350px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper > .h1 > .li {
+    padding: 0px;
+}

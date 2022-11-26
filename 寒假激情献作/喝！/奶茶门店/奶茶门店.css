@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    background-color: rgb(253, 251, 230);
+    justify-content: center;
+}
+.nav {
+    position: relative;
+    top: 0px;
+    display: flex;
+    box-shadow: 2px 5px 10px rgb(263, 261, 240);
+    border-radius: 2px;
+    justify-content: space-around;
+    width: 100vm;
+    height: 60px;
+}
+.nav a {
+    
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(153, 78, 24);
+}
+.shell {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 3px;
+}
+.shell div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 30px;
+    letter-spacing: 2px;
+}
+.image {
+    transform: translateZ(-1px) scale(1.6);
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+.text {
+    height: 50vh;
+    background-color: white;
+}
+.text {
+    color: rgb(0, 0, 0);
+}
+.head {
+    z-index: -1;
+    transform: translateY(-30vh) translateZ(1px);
+    color: white;
+    font-size: 30px;
+}
